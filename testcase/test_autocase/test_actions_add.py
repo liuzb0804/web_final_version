@@ -81,6 +81,7 @@ class test_actions_add(mytest.MyTest):
         #7: frame
         self.dr.switch_to_frame('***->***') #此处跳新frame
         self.dr.sleep(3)
+        #******** 操作
         #TODO 在新frame下执行对应操作,操作完成后，需退出，重新回到原来的frame,或之后要操作元素所在的frame
         self.dr.switch_to_frame_out()
         self.dr.sleep(3)

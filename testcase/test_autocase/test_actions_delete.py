@@ -43,7 +43,11 @@ class test_actions_delete(mytest.MyTest):
 
         # ****************************** actions delete ******************************
         """actions_delete"""
-        # TODO
+        #选择一个或多个，或者all。
+        self.dr.click('***->***')#选择对象
+        self.dr.sleep(1)
+        self.dr.click('***->***')#删除操作
+        self.dr.sleep(3)
 
         # ****************************** check after（操作后check总数变化） ******************************
         text_after = self.dr.get_text('')
